@@ -12,7 +12,7 @@ export default function Header() {
     console.log(path);
   }, [path]);
   return (
-    <div className=" flex justify-between p-6 px-10 shadow-md fixed top-0 w-full z-10 bg-white ">
+    <div className=" flex justify-between p-6 px-10 shadow-md fixed top-0 w-full z-50 bg-white ">
       <div className="flex gap-10 items-center">
         <Image src="/logo.svg" alt="logo" width={167} height={41} />
         <ul className="hidden md:flex gap-4">
